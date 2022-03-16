@@ -1,5 +1,10 @@
 import React from 'react';
+//import UseForm from './UseForm';
 const Login_Signup=()=>{
+// const{ handleChange,values}=UseForm();
+
+
+
         return(
             <div className="container white">
             
@@ -26,7 +31,7 @@ const Login_Signup=()=>{
                         type="radio center" value="" name="show password" /> Login via OTP
                     </div>
                            
-                            <button className="green darken-4">Submit</button>
+                            <button className="green darken-4 ">Submit</button>
                     
                     <div>
                         <button className="blue darken-3 right">Close</button>
