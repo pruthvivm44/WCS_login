@@ -31,7 +31,7 @@ const{ handleChange,values,handleSubmit,errors}=UseForm(validate);
                      
                      <div>
                         <input
-                        type="radio center" value="" name="show password" /> Login via OTP
+                        type="checkbox" /> <span>Login via OTP</span>
                     </div>
                            
                             <button className="green darken-4 ">Submit</button>
