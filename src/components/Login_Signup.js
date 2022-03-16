@@ -7,7 +7,7 @@ const Login_Signup=()=>{
                     
                 <h5 className="Left">Login</h5>
                     <input 
-                    type="Email/Phone" name="" placeholder="Enter email / Phone number" id="username" required>
+                    type="Email/Phone" name="" placeholder="Enter email / Phone number" id="Email/Phone" required>
                     </input>
                     <p className="message">We'll never share your email or phone number with anyone else.</p>
                     
