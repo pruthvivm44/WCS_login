@@ -19,7 +19,7 @@ const UseForm= validate =>{
         e.preventDefault();
         setErrors(validate(values));
     }
-
 return{handleChange,values,handleSubmit,errors};
+
 };
 export default UseForm;
