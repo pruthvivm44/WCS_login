@@ -1,5 +1,10 @@
 import React from 'react';
+//import UseForm from './UseForm';
 const Login_Signup=()=>{
+// const{ handleChange,values}=UseForm();
+
+
+
         return(
             <div className="container white">
             
@@ -7,12 +12,12 @@ const Login_Signup=()=>{
                     
                 <h5 className="Left">Login</h5>
                     <input 
-                    type="text-box" name="" placeholder="Enter email / Phone number" id="username">
+                    type="text-box" name="username" placeholder="Enter email / Phone number" id="username" /*value={values.username} onChange={handleChange}*/ >
                     </input>
                     <p className="message">We'll never share your email or phone number with anyone else.</p>
                     
                     <input 
-                    type="text-box " name="" placeholder="Password" id="password">
+                    type="text-box" name="password" placeholder="Password" id="password"  /*value={values.password} onChange={handleChange}*/>
                     </input>
                     <p className="message center">Don't have an account ? <a href="#">Create now</a></p>
                      
@@ -26,7 +31,7 @@ const Login_Signup=()=>{
                         type="radio center" value="" name="show password" /> Login via OTP
                     </div>
                            
-                            <button className="green darken-4">Submit</button>
+                            <button className="green darken-4 ">Submit</button>
                     
                     <div>
                         <button className="blue darken-3 right">Close</button>
