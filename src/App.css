@@ -43,12 +43,13 @@ left:-300px;
   #root > div > div{
     position:relative;
     z-index:1;
-    max-width:380px;
+    max-width:390px;
     margin:0 auto 100px;
     padding:25px;
     text-align:left;
     /* //to make sharped edges to curved edges */
     border-radius:5px;
+  
 
   }
   /* To extend the text Box of username */
@@ -120,3 +121,4 @@ left:-300px;
     width:330px;
     height:30px;
   }
+ 
