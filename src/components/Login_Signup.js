@@ -3,7 +3,7 @@ const Login_Signup=()=>{
         return(
             <div className="container white">
             
-            <form className="text-box">
+            <form className="Close">
                     
                 <h5 className="Left">Login</h5>
                     <input 
@@ -16,7 +16,7 @@ const Login_Signup=()=>{
                     </input>
                     <p className="message center">Don't have an account ? <a href="#">Create now</a></p>
                      
-                     <div>
+                     <div> 
                         <input 
                         type="radio center" value="" name="show password" /> Show password
                      </div>
