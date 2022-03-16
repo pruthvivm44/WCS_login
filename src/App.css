@@ -49,14 +49,18 @@ left:-190px;
 
   }
   /* To extend the text Box of username */
-  #username{
+  #Email\/Phone{
     width:330px;
     height:30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
   }
   /* To extend the text Box of password */
   #password{
     width:330px;
     height:30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
   }
   /* To add Radio Button for Show password*/
   #root > div > div > form > div:nth-child(6) > input[type=radio\ center]{

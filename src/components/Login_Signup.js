@@ -12,12 +12,12 @@ const Login_Signup=()=>{
                     
                 <h5 className="Left">Login</h5>
                     <input 
-                    type="text-box" name="username" placeholder="Enter email / Phone number" id="username" /*value={values.username} onChange={handleChange}*/ >
+                    type="Email/Phone" name="" placeholder="Enter email / Phone number" id="Email/Phone" required>
                     </input>
                     <p className="message">We'll never share your email or phone number with anyone else.</p>
                     
                     <input 
-                    type="text-box" name="password" placeholder="Password" id="password"  /*value={values.password} onChange={handleChange}*/>
+                    type="password" name="" placeholder="Password" id="password">
                     </input>
                     <p className="message center">Don't have an account ? <a href="#">Create now</a></p>
                      
