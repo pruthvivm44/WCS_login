@@ -5,28 +5,31 @@ body{
 #root > div > nav > div > img{
 position:relative;
 top:5px;
-left:-190px;
+left:-300px;
 }
 /*To place more to the right corner*/
 #root > div > nav > div > ul > li:nth-child(1) > a{
   color:blue;
-  margin-right:-110px;
-  margin-left:50px;
+  position:relative;
+  margin-right:-150px;
+  margin-left:200px;
+  right:-70px;
 
 }
 /*To add the color for the Button text in the Navbar */
 #root > div > nav > div > ul > li:nth-child(2) > a{
   color:green;
+
 }
 /*To add the button for the Navbar(Login/Signup) with color green*/
 #root > div > nav > div > ul > li:nth-child(2) > a > button{
   color:green;
   margin-right:30px;
-  margin-left:-300px;
+  margin-left:-180px;
   position:relative;
   right:-400px;
   border-color:green;
-  border-width: 1px;
+  border-width: 2px;
   border-radius:5px;
 }
 /*To change the border color for the form */
@@ -40,7 +43,7 @@ left:-190px;
   #root > div > div{
     position:relative;
     z-index:1;
-    max-width:375px;
+    max-width:380px;
     margin:0 auto 100px;
     padding:25px;
     text-align:left;
@@ -49,18 +52,18 @@ left:-190px;
 
   }
   /* To extend the text Box of username */
-  #Email\/Phone{
+  #username{
     width:330px;
     height:30px;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 1px solid #ccc;
   }
   /* To extend the text Box of password */
   #password{
     width:330px;
     height:30px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
+    border-radius: 0px;
+    border: 1px solid #ccc;    
   }
   /* To add Radio Button for Show password*/
   #root > div > div > form > div:nth-child(6) > input[type=radio\ center]{
@@ -88,4 +91,32 @@ left:-190px;
     margin-right:-14px;
     border-radius:5px;
   }
-  
+
+  #root > div > div{
+    color:black;
+  }
+  button, html [type="button"], [type="reset"], [type="submit"]{
+    position:relative;
+    height:35px;
+    color:white;
+    border:0px;
+    border-radius:5px;
+  }
+  #emailid{
+    width:340px;
+    height:30px;
+
+  }
+  #password1{
+    width:340px;
+    height:30px;
+  }
+  #root > div > div
+  {
+    position:relative;
+    height:390px
+  }
+  #phonenumber{
+    width:330px;
+    height:30px;
+  }
