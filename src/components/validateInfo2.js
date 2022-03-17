@@ -5,7 +5,7 @@ if(!values.emailid.trim()){
 }
 else if(!/^[A-Z0-9._%+-]+@[A-Z0-9,-]+\.[A-Z]{2,}$/i.test(values.emailid)){
 errors.emailid=<p style={{color:"red"}}>Invalid Email id  ! 
-<span style={{color:"blue"}}>(Email id contains Atleast one Special Character)</span></p>
+<span style={{color:"blue"}}>(Please Enter Correct Format)</span></p>
 }
 if(!values.password1){
     errors.password1=<p style={{ color: "red" }}>Please Enter Your Password</p>

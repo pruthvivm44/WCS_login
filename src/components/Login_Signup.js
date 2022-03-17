@@ -15,7 +15,7 @@ const{ handleChange,values,handleSubmit,errors}=UseForm(validate);
                     
                 <h5 className="Left">Login</h5>
                     <input 
-                    type="text" name="username" placeholder="Enter email / Phone number" id="username" value={values.username} onChange={handleChange} />
+                    type="text" name="username" placeholder="Enter email / Phone number" id="username" value={values.username} onChange={handleChange} required />
                     <p className="message">We'll never share your email or phone number with anyone else.</p>
                     {errors.username && <p>{errors.username}</p>}
                     
