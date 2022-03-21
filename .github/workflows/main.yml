@@ -8,7 +8,7 @@ on:
       - 'main'
   push:
     branches:
-      - 'main'
+      - 'login'
 
 jobs:
   build:
