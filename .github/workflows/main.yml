@@ -3,9 +3,12 @@
 # https://medium.com/@ljmocic/deploying-react-application-to-aws-s3-using-github-actions-85addacaeace
 
 on:
+  pull_request:
+    branches:
+      - 'main'
   push:
-    tags:
-      - '*'
+    branches:
+      - 'main'
 
 jobs:
   build:
